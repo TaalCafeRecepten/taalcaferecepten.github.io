@@ -1,5 +1,12 @@
 <aside id="metabar" class="metabar{% if include.color %} {{ include.color }}{% endif %}">
 	<div class="metabar-wrapper">
+		<div class="metabar-left">
+			<a class="metabar-logo" href="/">
+				{% include custom/logo.html %}
+			</a>
+			<span class="metabar-spacer"></span>
+			<a class="metabar-title" href="{{ site.baseurl }}{% if page.url == '/' %}#" data-scroll{% else %}"{% endif %} aria-label="Visit the homepage." title="Visit the homepage.">{{ site.title }}</a>
+		</div>
 		<div class="metabar-right">
 			<button id="js-navOpen" class="nav-open">Menu</button>
 			<nav id="js-metabarNav" class="metabar-nav">
