@@ -1133,4 +1133,3 @@ checkMeat = document.getElementsByClassName("js-meat"),
 checkOrigin = document.getElementsByClassName("js-origin"),
 checkBoxes = document.getElementsByClassName("searchbar-checkbox");
 if (checkBoxes) for (var k = 0; k < checkBoxes.length; k += 1) checkBoxes[k].addEventListener("change", filterList);
-//# sourceMappingURL=scripts.js.map

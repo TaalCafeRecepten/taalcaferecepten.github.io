@@ -17,7 +17,6 @@ exclude:
     LICENSE.md,
     .gitignore,
     _js,
-    _scss,
     _images
   ]
 permalink: /:title/
