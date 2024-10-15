@@ -27,8 +27,8 @@ compress_html:
 dark_theme: false
 
 # Site meta
-title: Summer
-tagline: 'Delicious & healthy recipes'
+title: Taal Café Recepten
+tagline: 'Taal Café Recepten'
 description: 'A simple Jekyll theme with a photo sidebar.'
 keywords: 'connor, bär, designer, traveller, code, jekyll, developer, theme'
 url: https://taalcaferecepten.github.io/
