@@ -3593,7 +3593,7 @@ textarea {
 
 .footer {
     margin-top: 4rem;
-    border-top: 2px solid #dee2e6
+    border-top: 1px solid #eee;
 }
 
 .footer:after {
