@@ -23,7 +23,7 @@ permalink: /:title/
 compress_html:
   clippings: all
   comments: all
-dark_theme: false
+dark_theme: true
 
 # Site meta
 title: Taal Café Recepten
