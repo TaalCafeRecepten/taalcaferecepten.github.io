@@ -13,20 +13,12 @@ plugins:
 color: '#fab005'
 exclude:
   [
-    CNAME,
     README.md,
-    NOTES.md,
     LICENSE.md,
     .gitignore,
-    package.json,
     _js,
     _scss,
-    _images,
-    gulpfile.js,
-    gulpconfig.js,
-    node_modules,
-    gemfile,
-    Gemfile.lock,
+    _images
   ]
 permalink: /:title/
 compress_html:
@@ -39,7 +31,7 @@ title: Summer
 tagline: 'Delicious & healthy recipes'
 description: 'A simple Jekyll theme with a photo sidebar.'
 keywords: 'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url: https://connor-baer.github.io
+url: https://taalcaferecepten.github.io/
 baseurl: /
 assets: /assets
 images: /images/
@@ -58,9 +50,9 @@ google_fonts:
 # Content
 excerpt_separator: <!-- Read more -->
 
-navigation:
-  GitHub: https://github.com/connor-baer/summer
-  Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
+# navigation:
+#   GitHub: https://github.com/connor-baer/summer
+#   Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
 
 collections:
   recipes:
